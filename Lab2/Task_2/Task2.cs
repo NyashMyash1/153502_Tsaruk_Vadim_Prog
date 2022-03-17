@@ -10,7 +10,6 @@ namespace Task_2
     {
         public int solution(double x, double y)
         {
-
             if (x < 15 && y < 15)
             {
                 if (Math.Abs(x) == y || Math.Pow(x, 2) + Math.Pow(y, 2) == 225)
