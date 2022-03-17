@@ -11,7 +11,7 @@ namespace Task2_Test
         public void TestMethod1()
         {
             Task2 method = new Task2();
-            int test = method.solution(4, 4);
+            int test = method.Solution(4, 4);
             Assert.AreEqual(1, test);
         }
 
@@ -19,7 +19,7 @@ namespace Task2_Test
         public void TestMethod2()
         {
             Task2 method = new Task2();
-            int test = method.solution(3, 4);
+            int test = method.Solution(3, 4);
             Assert.AreEqual(2, test);
         }
 
@@ -27,7 +27,7 @@ namespace Task2_Test
         public void TestMethod3()
         {
             Task2 method = new Task2();
-            int test = method.solution(16, 16);
+            int test = method.Solution(16, 16);
             Assert.AreEqual(0, test);
         }
 
@@ -35,7 +35,7 @@ namespace Task2_Test
         public void TestMethod4()
         {
             Task2 method = new Task2();
-            int test = method.solution(-3, 5);
+            int test = method.Solution(-3, 5);
             Assert.AreEqual(2, test);
         }
 
@@ -43,7 +43,7 @@ namespace Task2_Test
         public void TestMethod5()
         {
             Task2 method = new Task2();
-            int test = method.solution(15, 15);
+            int test = method.Solution(15, 15);
             Assert.AreEqual(0, test);
         }
 
@@ -51,7 +51,7 @@ namespace Task2_Test
         public void TestMethod6()
         {
             Task2 method = new Task2();
-            int test = method.solution(-7, 7);
+            int test = method.Solution(-7, 7);
             Assert.AreEqual(1, test);
         }
     }

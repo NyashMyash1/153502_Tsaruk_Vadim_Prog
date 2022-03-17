@@ -8,11 +8,11 @@ namespace Task_2
 {
     public class Task2
     {
-        public int solution(double x, double y)
+        public int Solution(double x, double y)
         {
             if (x < 15 && y < 15)
             {
-                if (Math.Abs(x) == y || Math.Pow(x, 2) + Math.Pow(y, 2) == 225)
+                if (Math.Abs(x) == y || Math.Pow(x, 2) + Math.Pow(y, 2) == 225.0)
                 {
                     return 1;
                 }
@@ -41,11 +41,11 @@ namespace Task_2
                 Console.Write("Введите y: ");
                 double y = Convert.ToDouble(Console.ReadLine());
                 Task2 method = new Task2();
-                if(method.solution(x ,y) == 1)
+                if(method.Solution(x ,y) == 1)
                 {
                     Console.WriteLine("На границе");
                 }
-                else if(method.solution(x, y) == 2)
+                else if(method.Solution(x, y) == 2)
                 {
                     Console.WriteLine("Да");
                 }
