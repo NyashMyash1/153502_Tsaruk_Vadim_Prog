@@ -3,9 +3,9 @@
 while(IsTrue)
 {
     Console.Write("Введите x: ");
-    double x = Convert.ToInt32(Console.ReadLine());
+    double x = Convert.ToDouble(Console.ReadLine());
     Console.Write("Введите y: ");
-    double y = Convert.ToInt32(Console.ReadLine());
+    double y = Convert.ToDouble(Console.ReadLine());
     if(x < 15 && y < 15)
     {
         if (Math.Abs(x) == y || Math.Pow(x, 2) + Math.Pow(y, 2) == 225 )
