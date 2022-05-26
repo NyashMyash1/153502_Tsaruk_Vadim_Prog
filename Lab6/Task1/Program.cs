@@ -16,7 +16,7 @@ namespace Task1
             milk.ShowInfo();
             meat.ShowInfo();
             bakery.ShowInfo();
-            milk.Sell(10);
+            milk.Sell(10);  
             meat.Sell(5);
             bakery.Sell(10);
             milk.ShowInfo();

@@ -19,7 +19,7 @@ namespace Task1
             ozon.StartCall("Ivan");
             ozon.BuyProduct("Jacket");
             ozon.BuyProduct("Cap");
-            ozon.EndCall();
+            ozon.EndCall();  
             Console.WriteLine(ozon.GetProductsByName("Ivan"));
             Console.WriteLine(ozon.GetSumByName("Ivan"));
         }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Task1
 {
     internal class Program
-    {
+    { 
         static void Main(string[] args)
         {
             Vector vector1 = new Vector(3, 3, 3);
