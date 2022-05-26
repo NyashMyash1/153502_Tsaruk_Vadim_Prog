@@ -22,32 +22,6 @@ namespace Task1
             this.values[2] = c;
         }
 
-        //private int a;
-
-        //public int A
-        //{
-        //    get { return a; }
-        //    set { a = value; }
-        //}
-
-
-        //private int b;
-
-        //public int B
-        //{
-        //    get { return b; }
-        //    set { b = value; }
-        //}
-
-
-        //private int c;
-
-        //public int C
-        //{
-        //    get { return c; }
-        //    set { c = value; }
-        //}
-
         public static Vector operator +(Vector x, Vector y)
         {
             Vector z = new Vector();
