@@ -29,10 +29,9 @@ namespace Task1
             Console.WriteLine(((double)vector3));
             Console.WriteLine(vector3[1]);
             if (vector4)
-                Console.WriteLine("Mistake");
+                Console.WriteLine("Не нулевой");
             else
-                Console.WriteLine("No mistakes");
-            Console.ReadKey();
+                Console.WriteLine("Нулевой");
         }
     }
 }
